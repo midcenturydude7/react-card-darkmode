@@ -1,9 +1,12 @@
 import React from "react";
+import Main from "./Components/Main";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div>
-      DarkMode Card | Built with React
+      <Navbar />
+      <Main />
     </div>
   );
 }
